@@ -9,12 +9,17 @@
 - 언어나 기술명으로 폴더를 만든다. 
 - 파일명은 영어로 한다.
 
-## 전체 카테고리
+## Front-End
 - [HTML]()
 - [CSS]()
 - [JavaScript]()
 - [AngularJS]()
-- [Design]()
+
+## Design
+- [Typography]()
+- [Color]()
+- [Layout]()
+
 
 
 
