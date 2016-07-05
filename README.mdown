@@ -12,10 +12,12 @@
 ## Front-End
 - [HTML]()
 - [CSS]()
+- [MarkupXStyling]()
 - [JavaScript]()
 - [AngularJS]()
 
 ## Design
+- [Design Theory]()
 - [Typography]()
 - [Color]()
 - [Layout]()

@@ -23,14 +23,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "README.mdown",
-			"settings":
-			{
-				"buffer_size": 344,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -40,9 +32,17 @@
 	"command_palette":
 	{
 		"height": 149.0,
-		"last_filter": "insta",
+		"last_filter": "sy mar",
 		"selected_items":
 		[
+			[
+				"sy mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"md",
+				"Markdown Preview: Copy to Clipboard"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -148,7 +148,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -171,10 +171,19 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/eatdesignlove/Documents/TIL"
+		"/Users/eatdesignlove/Documents/TIL",
+		"/Users/eatdesignlove/Documents/TIL/color",
+		"/Users/eatdesignlove/Documents/TIL/color/color-management",
+		"/Users/eatdesignlove/Documents/TIL/MarkupXStyling",
+		"/Users/eatdesignlove/Documents/TIL/MarkupXStyling/grid-module-design"
 	],
 	"file_history":
 	[
+		"/Users/eatdesignlove/Documents/TIL/README.mdown",
+		"/Users/eatdesignlove/Documents/TIL/color/color-management/01-human-vision-&-color-setting.md",
+		"/Users/eatdesignlove/Documents/TIL/design/theory/modular-design.md",
+		"/Users/eatdesignlove/Documents/TIL/human-vision",
+		"/Users/eatdesignlove/Documents/TIL/color/human-vision.md",
 		"/Users/eatdesignlove/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/eatdesignlove/Desktop/FDS/HTML/emmet.html",
 		"/Users/eatdesignlove/Desktop/FDS/Day01/README.md",
@@ -320,40 +329,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "README.mdown",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 344,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								283,
-								283
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"colorcode": true,
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -363,7 +340,7 @@
 	},
 	"input":
 	{
-		"height": 41.0
+		"height": 108.0
 	},
 	"layout":
 	{
@@ -396,6 +373,10 @@
 	{
 		"height": 31.0
 	},
+	"output.markdown":
+	{
+		"height": 156.0
+	},
 	"pinned_build_system": "",
 	"project": "TIL.sublime-project",
 	"replace":
@@ -420,7 +401,7 @@
 		[
 			[
 				"",
-				"~/Desktop/FDS/fds.sublime-project"
+				"~/Documents/program/FDS/fds.sublime-project"
 			]
 		],
 		"width": 380.0
