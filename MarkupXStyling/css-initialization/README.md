@@ -14,10 +14,10 @@
 ```
 
 ## Reset CSS
-![Reset.css Result](./images/reset.css)
+![Reset.css Result](https://github.com/eatdesignlove/TIL/blob/master/MarkupXStyling/css-initialization/images/reset.png)
 
 ## Normalize CSS
-![Normalize Result](./images/normalize.css)
+![Normalize Result](https://github.com/eatdesignlove/TIL/blob/master/MarkupXStyling/css-initialization/images/normalize.png)
 
 ## Ress CSS
 
