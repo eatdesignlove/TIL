@@ -14,10 +14,10 @@
 ```
 
 ## Reset CSS
-![Reset.css Result](/images/reset.css)
+![Reset.css Result](./images/reset.css)
 
 ## Normalize CSS
-![Normalize Result](/images/normalize.css)
+![Normalize Result](./images/normalize.css)
 
 ## Ress CSS
 
