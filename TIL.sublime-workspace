@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
 				"m",
 				"markdown_preview"
 			],
@@ -23,6 +35,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "MarkupXStyling/grid-module-design/grid-module.design.html",
+			"settings":
+			{
+				"buffer_size": 694,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MarkupXStyling/grid-module-design/css/grid-module-design.css",
+			"settings":
+			{
+				"buffer_size": 617,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -174,11 +202,12 @@
 		"/Users/eatdesignlove/Documents/TIL",
 		"/Users/eatdesignlove/Documents/TIL/color",
 		"/Users/eatdesignlove/Documents/TIL/color/color-management",
-		"/Users/eatdesignlove/Documents/TIL/MarkupXStyling",
-		"/Users/eatdesignlove/Documents/TIL/MarkupXStyling/grid-module-design"
+		"/Users/eatdesignlove/Documents/TIL/MarkupXStyling"
 	],
 	"file_history":
 	[
+		"/Users/eatdesignlove/Documents/TIL/resources/reset.css",
+		"/Users/eatdesignlove/Documents/program/FDS/resources/reset.css",
 		"/Users/eatdesignlove/Documents/TIL/README.mdown",
 		"/Users/eatdesignlove/Documents/TIL/color/color-management/01-human-vision-&-color-setting.md",
 		"/Users/eatdesignlove/Documents/TIL/design/theory/modular-design.md",
@@ -256,6 +285,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"col-",
+			"wrap",
+			"margin-right: 50px;",
+			"-hor",
 			"(",
 			"aria",
 			"wai",
@@ -329,8 +362,77 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "MarkupXStyling/grid-module-design/grid-module.design.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								249,
+								249
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "MarkupXStyling/grid-module-design/css/grid-module-design.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								617,
+								617
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -351,11 +453,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
