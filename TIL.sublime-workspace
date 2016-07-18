@@ -181,19 +181,14 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/eatdesignlove/Documents/TIL/color",
-		"/Users/eatdesignlove/Documents/TIL/color/color-management",
-		"/Users/eatdesignlove/Documents/TIL/design",
-		"/Users/eatdesignlove/Documents/TIL/design/sketch",
-		"/Users/eatdesignlove/Documents/TIL/MarkupXStyling"
-	],
 	"file_history":
 	[
+		"/Users/eatdesignlove/Documents/TIL/MarkupXStyling/grid-module-design/Fluid-Grid-System.md",
+		"/Users/eatdesignlove/Documents/TIL/javascript/immediately-invoked-function.md",
+		"/Users/eatdesignlove/Documents/TIL/javascript/immediate-function.md",
+		"/Users/eatdesignlove/Documents/TIL/design/sketch/sketch3-overview.md",
 		"/Users/eatdesignlove/Documents/TIL/MarkupXStyling/grid-module-design/css/grid-module-design.css",
 		"/Users/eatdesignlove/Documents/TIL/MarkupXStyling/grid-module-design/grid-module.design.html",
-		"/Users/eatdesignlove/Documents/TIL/design/sketch/sketch3-overview.md",
 		"/Users/eatdesignlove/Documents/TIL/resources/reset.css",
 		"/Users/eatdesignlove/Documents/program/FDS/resources/reset.css",
 		"/Users/eatdesignlove/Documents/TIL/README.mdown",
@@ -273,6 +268,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"col",
+			"{",
 			"col-",
 			"wrap",
 			"margin-right: 50px;",
@@ -353,11 +350,6 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
@@ -377,18 +369,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -448,7 +433,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

@@ -21,5 +21,5 @@
 ```
 
 ## 참고자료
->[Javascript : 함수(function) 다시 보기](http://www.nextree.co.kr/p4150/)
-[즉시 실행 함수](http://codedragon.tistory.com/199)
+>- [Javascript : 함수(function) 다시 보기](http://www.nextree.co.kr/p4150/)
+- [즉시 실행 함수](http://codedragon.tistory.com/199)
