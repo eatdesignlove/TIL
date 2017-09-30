@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Fluid Layout including Fixed Element.</title>
+	<style>
+		.grid {
+			width: 100%;
+			max-width: 1000px;
+			margin: 0 auto;
+		}
+		.grid::after {
+			content: '';
+			display: block;
+			clear: bath;
+		}
+		.fixed-col {
+			width: 200px;
+			height: 100vh;
+			background-color: yellow;
+			float: right;
+		}
+		.fluid-container {
+			padding-bottom: 200px;
+		}
+		.fluid-col {
+			/* width: table-cell; */
+			width: 100%;
+			height: 100vh;
+			background-color: cyan;
+		}
+	</style>
+</head>
+<body>
+	<div class="grid">
+		<div class="fixed-col"></div>
+		<div class="fluid-container">
+			<div class="fluid-col">
+				<p style="border-bottom: 2px solid #242424">안녕하세요.</>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

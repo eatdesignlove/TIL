@@ -47,7 +47,35 @@ div {
 
 바로 고정시키고자 하는 칼럼을 Fluid 칼럼의 앞쪽으로 마크업하고, `width`와 `float: right`을 부여하고, 나머지 하나의 칼럼에는 비율너비와 `display: tabel-cell`을 적용해주는 방법이다.
 
-명확한 원리를 파악하지는 못했지만, 유용한 방법인 것 같다. Flex를 활용하면 더 쉽게 처리할 수 있을지 모르겠다는 생각이 든다. 그래서 시도해 보니 너무나 쉽게 적용이 된다. 언젠가 IE 하위버전을 고려하지 않아도 될쯤이면 위의 방식은 추억으로 남을 듯 하다.
+
+###### edited
+
+작업하는 과정에서 table-cell을 레이아웃 요소로 활용하면서 내부에 콘텐츠의 양이 적절하지 않으면 왼쪽으로 붙어보이는 문제를 발견했다. 여러가지로 고민하던 끝에 유연하게 처리해야하는 부분에 컨테이너를 씌우고 padding을 고정영역만큼 추가하는 방식으로 table-cell을 사용하지 않고 처리가 가능했다. 코드는 다음과 같다.
+
+```html
+<div class="grid">
+	<div class="fixed-col"></div>
+	<div class="fluid-container">
+		<div class="fluid-col"></div>
+	</div>
+</div>
+```
+
+```css
+.fixed-col {
+	float: right;
+	width: 300px;
+}
+.fluid-container {
+	padding-right: 300px;
+}
+.fluid-col {
+	width: 100%;
+	float: none;
+}
+```
+
+유용한 방법인 것 같다. Flex를 활용하면 더 쉽게 처리할 수 있을지 모르겠다는 생각이 든다. 그래서 시도해 보니 너무나 쉽게 적용이 된다. 언젠가 IE 하위버전을 고려하지 않아도 될쯤이면 위의 방식은 추억으로 남을 듯 하다.
 
 ```html
 <div class="grid">
